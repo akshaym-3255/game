@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.akshay.currency.MainActivity">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/grid"
+        android:columnCount="4"
+        android:rowCount="4">
+
+        <ImageView
+            android:id="@+id/red00"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:onClick="playgame"
+            android:visibility="visible"
+            app:srcCompat="@drawable/red"
+            android:tag="0" />
+
+
+        <ImageView
+            android:id="@+id/red01"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="1"
+            android:layout_marginLeft="70dp"
+            android:layout_row="0"
+
+            android:visibility="invisible"
+            app:srcCompat="@drawable/red"   android:tag="1" />
+
+
+        <ImageView
+            android:id="@+id/red02"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="2"
+            android:layout_marginLeft="50dp"
+            android:layout_row="0"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/red"   android:tag="2" />
+
+
+        <ImageView
+            android:id="@+id/red03"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="3"
+            android:layout_marginLeft="60dp"
+            android:layout_row="0"
+            android:onClick="playgame"
+            android:visibility="visible"
+            app:srcCompat="@drawable/red"   android:tag="3" />
+
+        <ImageView
+            android:id="@+id/red10"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:layout_marginTop="100dp"
+            android:layout_row="1"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/red"
+              android:tag="4" />
+
+        <ImageView
+            android:id="@+id/red11"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="1"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="1"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/red"   android:tag="5" />
+
+        <ImageView
+            android:id="@+id/red12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="2"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="1"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/red"   android:tag="6" />
+
+        <ImageView
+            android:id="@+id/red13"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="3"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="1"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/red"   android:tag="7" />
+
+        <ImageView
+            android:id="@+id/red20"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:layout_marginTop="100dp"
+            android:layout_row="2"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/red"   android:tag="8" />
+
+        <ImageView
+            android:id="@+id/red21"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="1"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="2"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/red"   android:tag="9" />
+
+        <ImageView
+            android:id="@+id/red22"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="2"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="2"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/red"   android:tag="10" />
+
+        <ImageView
+            android:id="@+id/red23"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="3"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="2"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/red"   android:tag="11" />
+
+        <ImageView
+            android:id="@+id/red30"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="0"
+            android:layout_marginTop="100dp"
+            android:layout_row="3"
+            android:onClick="playgame"
+            android:visibility="visible"
+            app:srcCompat="@drawable/red"   android:tag="12" />
+
+        <ImageView
+            android:id="@+id/red31"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="1"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="3"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/red"   android:tag="13" />
+
+        <ImageView
+            android:id="@+id/red32"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="2"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="3"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/red"   android:tag="14" />
+
+        <ImageView
+            android:id="@+id/red33"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_column="3"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="3"
+            android:onClick="playgame"
+            android:visibility="visible"
+            app:srcCompat="@drawable/red"   android:tag="15" />
+        //yellow start
+
+        <ImageView
+            android:id="@+id/yellow00"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_row="0"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/yellow"   android:tag="0" />
+
+
+        <ImageView
+            android:id="@+id/yellow01"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_marginLeft="70dp"
+            android:layout_row="0"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/yellow"   android:tag="1" />
+
+
+        <ImageView
+            android:id="@+id/yellow02"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="2"
+            android:layout_marginLeft="40dp"
+            android:layout_row="0"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/yellow"   android:tag="2" />
+
+
+        <ImageView
+            android:id="@+id/yellow03"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="3"
+            android:layout_marginLeft="60dp"
+            android:layout_row="0"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/yellow"   android:tag="3" />
+
+        <ImageView
+            android:id="@+id/yellow10"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_marginTop="100dp"
+            android:layout_row="1"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/yellow"   android:tag="4" />
+
+        <ImageView
+            android:id="@+id/yellow11"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="1"
+            android:onClick="playgame"
+            android:visibility="visible"
+            app:srcCompat="@drawable/yellow"   android:tag="5" />
+
+        <ImageView
+            android:id="@+id/yellow12"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="2"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="1"
+            android:onClick="playgame"
+            android:visibility="visible"
+            app:srcCompat="@drawable/yellow"   android:tag="6" />
+
+        <ImageView
+            android:id="@+id/yellow13"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="3"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="1"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/yellow"   android:tag="7" />
+
+        <ImageView
+            android:id="@+id/yellow20"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_marginTop="100dp"
+            android:layout_row="2"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/yellow"   android:tag="8" />
+
+        <ImageView
+            android:id="@+id/yellow21"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="2"
+            android:onClick="playgame"
+            android:visibility="visible"
+            app:srcCompat="@drawable/yellow"   android:tag="9" />
+
+        <ImageView
+            android:id="@+id/yellow22"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="2"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="2"
+            android:onClick="playgame"
+            android:visibility="visible"
+            app:srcCompat="@drawable/yellow"   android:tag="10" />
+
+        <ImageView
+            android:id="@+id/yellow23"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="3"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="2"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/yellow"   android:tag="11" />
+
+        <ImageView
+            android:id="@+id/yellow30"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="0"
+            android:layout_marginTop="100dp"
+            android:layout_row="3"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/yellow"   android:tag="12" />
+
+        <ImageView
+            android:id="@+id/yellow31"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="1"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="3"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/yellow"   android:tag="13" />
+
+        <ImageView
+            android:id="@+id/yellow32"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="2"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="3"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/yellow"   android:tag="14" />
+
+        <ImageView
+            android:id="@+id/yellow33"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_column="3"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="100dp"
+            android:layout_row="3"
+            android:onClick="playgame"
+            android:visibility="invisible"
+            app:srcCompat="@drawable/yellow"   android:tag="15" />
+
+    </GridLayout>
+
+</android.widget.RelativeLayout>
